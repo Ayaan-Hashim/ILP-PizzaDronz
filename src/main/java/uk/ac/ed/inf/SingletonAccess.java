@@ -3,6 +3,7 @@ package uk.ac.ed.inf;
 import com.fasterxml.jackson.core.type.TypeReference;
 import java.util.ArrayList;
 
+
 /**
  * This class is used to ensure the singleton access pattern is
  * used to retrieve the Central Area coordinates
@@ -17,13 +18,14 @@ public class SingletonAccess {
      * Arraylist used to store the coordinates
      * of the central area's vertices as a list of LngLat objects
      */
-    private ArrayList<LngLat> centralAreaCoOrds;
+    public static ArrayList<LngLat> centralAreaCoOrds;
 
     /**
      * A private constructor so that only one object exists and other instances aren't made
      */
     private SingletonAccess(){
         readCentralArea();
+        readNoFlyZone();
     }
 
     /**
@@ -46,7 +48,7 @@ public class SingletonAccess {
      */
     public void readCentralArea(){
         centralAreaCoOrds = RetrieveServerData
-                .getExtensionDataFromDefaultURL("centralArea", new TypeReference<ArrayList<LngLat>>(){});
+                .getExtensionDataFromDefaultURL("/centralArea", new TypeReference<ArrayList<LngLat>>(){});
     }
 
     /**
@@ -55,8 +57,18 @@ public class SingletonAccess {
      * @return the list of coordinates of the central area.
      */
     public ArrayList<LngLat> getCentralAreaCoOrds(){
-        singletonAccessObj.readCentralArea();
         return centralAreaCoOrds;
     }
 
+    protected ArrayList<NoFlyZones> nfz;
+    public void readNoFlyZone(){
+        nfz =  RetrieveServerData
+                .getExtensionDataFromDefaultURL("/noFlyZones", new TypeReference<ArrayList<NoFlyZones>>(){});
+
+    }
+
+    public ArrayList<NoFlyZones> getNoFlyZoneCoOrds(){
+        singletonAccessObj.readNoFlyZone();
+        return nfz;
+    }
 }

@@ -5,6 +5,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 
 /**
  * This class is used to retrieve data from the REST Server
@@ -15,14 +16,18 @@ public class RetrieveServerData {
 	 * A default URL that is used to fetch data from the base address
 	 * <a href="https://ilp-rest.azurewebsites.net/">default URL</a>
 	 */
-	private static final URL DEFAULT_URL;
+	public static URL DEFAULT_URL;
 
-	static {
-		try {
-			DEFAULT_URL = new URL("https://ilp-rest.azurewebsites.net/");
-		} catch (MalformedURLException e) {
-			throw new RuntimeException(e);
-		}
+//	static {
+//		try {
+//			DEFAULT_URL = new URL("https://ilp-rest.azurewebsites.net/");
+//		} catch (MalformedURLException e) {
+//			throw new RuntimeException(e);
+//		}
+//	}
+
+	public static void setDefaultUrl(URL defaultUrl){
+		DEFAULT_URL = defaultUrl;
 	}
 
 	/**

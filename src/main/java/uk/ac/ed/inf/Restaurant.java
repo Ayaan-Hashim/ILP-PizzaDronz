@@ -24,6 +24,8 @@ public record Restaurant(
         @JsonProperty("menu")
         List<Menu> menu){
 
+    public static Restaurant[] restaurants;
+
     /**
      * This method is used as a getter function for all the
      * items that the restaurant has on its menu.
@@ -38,14 +40,22 @@ public record Restaurant(
      * returns an array of all participating restaurants obtained from the given
      * server base address, along with their menus
      * @param serverBaseAddress the URL address of Server that is to be accessed
-     * @return all restaurants in the server in the form of an array of Restaurant objects
      */
-    public static Restaurant[] getRestaurantsFromRestServer(URL serverBaseAddress){
-        var restaurantArrayList = RetrieveServerData
+    public static void getRestaurantsFromRestServer(URL serverBaseAddress){
+        ArrayList<Restaurant> restaurantArrayList = RetrieveServerData
                 .getExtensionDataFromURL("restaurants",serverBaseAddress,
                         new TypeReference<ArrayList<Restaurant>>(){});
 
-        return restaurantArrayList.toArray(new Restaurant[0]);
+        restaurants = restaurantArrayList.toArray(new Restaurant[0]);
+    }
+
+    public LngLat getRestaurantLngLat(){
+        return new LngLat(lng,lat);
+    }
+
+    public double distanceBetween(LngLat otherLocation){
+        LngLat restaurantLocation = getRestaurantLngLat();
+        return restaurantLocation.distanceTo(otherLocation);
     }
 
 }

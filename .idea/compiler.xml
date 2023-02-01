@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ILP_Project" />
-        <module name="PizzaDronz_ILP" />
+        <module name="PIzzaDronz" />
       </profile>
     </annotationProcessing>
   </component>

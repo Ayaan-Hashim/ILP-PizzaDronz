@@ -3,6 +3,8 @@ package uk.ac.ed.inf;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.ArrayList;
+
 /**
  * The class LngLat is in the form of a record so that things like getters, constructors and such can be omitted
  * This class represents a location on the map in the form of longitude and latitude
@@ -44,18 +46,18 @@ public record LngLat(
 //      The `var` below uses local type inference inorder to infer
 //      the type of arguments returned by the receiveCentralAreaCoOrd
 //      method from the SingletonAccess class.
-		var centralAreaCoOrds = SingletonAccess.getInstance().getCentralAreaCoOrds();
+		ArrayList<LngLat> centralAreaCoOrds = SingletonAccess.getInstance().getCentralAreaCoOrds();
         int centralAreaPolygonSize = centralAreaCoOrds.size();
         boolean isPointInsideCentralArea = false;
-        var pointToCheckLat = this.lat;
+        double pointToCheckLat = this.lat;
 		for (int i = 0, j = centralAreaPolygonSize - 1; i < centralAreaPolygonSize; j = i++){
 			//Storing the i-th and j-th points in order to check is the provided point lies between the polygon
-			var pointI = centralAreaCoOrds.get(i);
-			var pointJ = centralAreaCoOrds.get(j);
-			var pointILat= pointI.lat();
-			var pointILng= pointI.lng();
-			var pointJLat= pointJ.lat();
-			var pointJLng= pointJ.lng();
+			LngLat pointI = centralAreaCoOrds.get(i);
+			LngLat pointJ = centralAreaCoOrds.get(j);
+			double pointILat= pointI.lat();
+			double pointILng= pointI.lng();
+			double pointJLat= pointJ.lat();
+			double pointJLng= pointJ.lng();
 
 			//The following if statement has been translated in to java following the StackOverflow post
 			if (((pointILat > pointToCheckLat) != (pointJLat > pointToCheckLat))
@@ -77,8 +79,8 @@ public record LngLat(
 		return isPointInsideCentralArea;
 	}
 
-	//This method returns the pythagorean distance between the provided point and another point
 
+	//This method returns the pythagorean distance between the provided point and another point
 	/**
 	 * This method calculates the Pythagorean distance between the provided point and another point
 	 * @param otherPoint another point passed in the same format: (longitude,latitude)
@@ -97,8 +99,8 @@ public record LngLat(
 	 * @param point the point to be checked in (longitude, latitude) format
 	 * @return true if the distance between the two points is within the given distance tolerance false otherwise
 	 */
-	public Boolean closeTo(LngLat point){
-		return distanceTo(point) <= DISTANCE_TOLERANCE;
+	public boolean closeTo(LngLat point){
+		return distanceTo(point) < DISTANCE_TOLERANCE;
 	}
 
 	/**
