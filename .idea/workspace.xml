@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f7e8db9-4d41-45ce-9e6e-6cb2efd02227" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/OrderOutcome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/InvalidPizzaCombinationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/LngLat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/LngLat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/RetrieveServerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/RetrieveServerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/SingletonAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/SingletonAccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/TestLngLat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/TestOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/TestRestaurant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/InvalidPizzaCombinationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/LngLat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/LngLat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Restaurant$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Restaurant$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Restaurant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/RetrieveServerData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/RetrieveServerData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/TestLngLat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/TestOrder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/TestOrder.class" beforeDir="false" />
-    </list>
+    <list default="true" id="0f7e8db9-4d41-45ce-9e6e-6cb2efd02227" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +48,7 @@
       <workItem from="1670586510165" duration="590000" />
       <workItem from="1672679259041" duration="638000" />
       <workItem from="1674146120207" duration="4996000" />
-      <workItem from="1675189386388" duration="1476000" />
+      <workItem from="1675189386388" duration="1861000" />
     </task>
     <servers />
   </component>
