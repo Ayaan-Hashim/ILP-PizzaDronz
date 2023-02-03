@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f7e8db9-4d41-45ce-9e6e-6cb2efd02227" name="Changes" comment="final ILP code">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/IntegrationOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/TestLngLat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/TestOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/TestRestaurant.java" afterDir="false" />
+    <list default="true" id="0f7e8db9-4d41-45ce-9e6e-6cb2efd02227" name="Changes" comment="tests upto integration done">
+      <change afterPath="$PROJECT_DIR$/ST-documents/ST-ILP-Software-Requirements.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ST-documents/ST-Level of Requirements.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ST-documents/ST-Test-Plan.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ST-documents/ST-Testing approaches.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ST-documents/Software Testing Portfolio.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ST-documents/Testing Evidence.odt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/RetrieveServerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/RetrieveServerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/RetrieveServerData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/RetrieveServerData.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mdaya/Downloads/ilp/PizzaDronz_ILP",
+    "last_opened_file_path": "C:/Users/mdaya/Downloads/ilp/PizzaDronz_ILP/ST-documents",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -156,7 +152,7 @@
       <workItem from="1670586510165" duration="590000" />
       <workItem from="1672679259041" duration="638000" />
       <workItem from="1674146120207" duration="4996000" />
-      <workItem from="1675189386388" duration="28123000" />
+      <workItem from="1675189386388" duration="29248000" />
     </task>
     <task id="LOCAL-00001" summary="final ILP code">
       <created>1675274488539</created>
@@ -165,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675274488539</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tests upto integration done">
+      <created>1675385002924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675385002924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +187,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final ILP code" />
-    <option name="LAST_COMMIT_MESSAGE" value="final ILP code" />
+    <MESSAGE value="tests upto integration done" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests upto integration done" />
   </component>
 </project>
