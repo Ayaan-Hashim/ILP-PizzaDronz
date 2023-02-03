@@ -18,17 +18,17 @@ public class RetrieveServerData {
 	 */
 	public static URL DEFAULT_URL;
 
-//	static {
-//		try {
-//			DEFAULT_URL = new URL("https://ilp-rest.azurewebsites.net/");
-//		} catch (MalformedURLException e) {
-//			throw new RuntimeException(e);
-//		}
-//	}
-
-	public static void setDefaultUrl(URL defaultUrl){
-		DEFAULT_URL = defaultUrl;
+	static {
+		try {
+			DEFAULT_URL = new URL("https://ilp-rest.azurewebsites.net/");
+		} catch (MalformedURLException e) {
+			throw new RuntimeException(e);
+		}
 	}
+
+//	public static void setDefaultUrl(URL defaultUrl){
+//		DEFAULT_URL = defaultUrl;
+//	}
 
 	/**
 	 * The generic method used to retrieve data from the given extension of

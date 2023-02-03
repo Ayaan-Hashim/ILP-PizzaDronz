@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
  * This class is the driver class of the entire system, calling all the relevant parts of the code to make it so that
  * the drone delivers the as many orders as possible for the day provided.
  */
-public class Controller
+public class  Controller
 {
     /**
      * This static URL stores a valid link to the server's base address.
@@ -33,7 +33,7 @@ public class Controller
         //calls a helper function to check if the terminal inputs are valid and if possible, fix the input.
         validateTerminalInputs(args);
         //Sets the default URL for the server's base address for all calls that don't require a special address
-        RetrieveServerData.setDefaultUrl(serverBaseAddress);
+//        RetrieveServerData.setDefaultUrl(serverBaseAddress);
         //Read the Central Area once to abide by Singleton Design pattern
         SingletonAccess.getInstance().readCentralArea();
         //Read the restaurants that are available to get orders from.
