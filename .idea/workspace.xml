@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f7e8db9-4d41-45ce-9e6e-6cb2efd02227" name="Changes" comment="added more tests">
+    <list default="true" id="0f7e8db9-4d41-45ce-9e6e-6cb2efd02227" name="Changes" comment="added st files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-documents/ST-ILP-Software-Requirements.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-documents/ST-Level of Requirements.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-documents/ST-Test-Plan.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-documents/ST-Testing approaches.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-documents/Testing Evidence.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software Testing/Review and Inspection.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software Testing/ST-ILP-Software-Requirements.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software Testing/ST-Level of Requirements.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software Testing/ST-Test-Plan.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software Testing/ST-Testing approaches.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software Testing/Software Testing Portfolio.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software Testing/Testing Evaluation.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software Testing/Testing Evidence.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software Testing/coursework specification document.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software Testing/ilp-coursework (2.4.1).pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +53,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mdaya/Downloads/ilp/PizzaDronz_ILP/ST-documents",
+    "last_opened_file_path": "C:/Users/mdaya/Downloads/ilp/PizzaDronz_ILP",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mdaya\Downloads\ilp\PizzaDronz_ILP" />
       <recent name="C:\Users\mdaya\Downloads\ilp\PizzaDronz_ILP\ST-documents" />
     </key>
   </component>
@@ -156,7 +162,7 @@
       <workItem from="1670586510165" duration="590000" />
       <workItem from="1672679259041" duration="638000" />
       <workItem from="1674146120207" duration="4996000" />
-      <workItem from="1675189386388" duration="41014000" />
+      <workItem from="1675189386388" duration="42378000" />
     </task>
     <task id="LOCAL-00001" summary="final ILP code">
       <created>1675274488539</created>
@@ -193,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675409568851</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added st files">
+      <created>1675419284961</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675419284961</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +229,8 @@
     <MESSAGE value="added few st documents" />
     <MESSAGE value="added one system test" />
     <MESSAGE value="added more tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more tests" />
+    <MESSAGE value="added st files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added st files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PizzaDronz_ILP$SystemTest_testWholeSystem1.ic" NAME="SystemTest.testWholeSystem1 Coverage Results" MODIFIED="1675407164889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
