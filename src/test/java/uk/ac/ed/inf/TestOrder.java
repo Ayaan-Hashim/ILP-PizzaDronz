@@ -72,19 +72,20 @@ public class TestOrder
         order7.checkOrderValidation();
         assertEquals(OrderOutcome.InvalidPizzaCombinationMultipleSuppliers,order7.getOrderOutcome());
 
-        Order order9 = new Order("TestFunctions","2023-02-01","Test Name4",
+        Order order8 = new Order("TestFunctions","2023-02-01","Test Name8",
+                "2720038402742337","05/23","817",
+                2400, new ArrayList<>(Arrays.asList("Proper Pizza","Pineapple & Ham & Cheese")));
+        order8.checkOrderValidation();
+        assertEquals(OrderOutcome.ValidButNotDelivered,order8.getOrderOutcome());
+
+//      the general 'Invalid' case, being raised for an invalid date of the order.
+        Order order9 = new Order("TestFunctions","2022-02-01","Test Name9",
                 "2720038402742337","05/23","817",
                 2400, new ArrayList<>(Arrays.asList("Proper Pizza","Pineapple & Ham & Cheese")));
         order9.checkOrderValidation();
-        assertEquals(OrderOutcome.ValidButNotDelivered,order9.getOrderOutcome());
+        assertEquals(OrderOutcome.Invalid,order9.getOrderOutcome());
 
-//      the general 'Invalid' case, being raised for an invalid date of the order.
-        Order order10 = new Order("TestFunctions","2022-02-01","Test Name4",
-                "2720038402742337","05/23","817",
-                2400, new ArrayList<>(Arrays.asList("Proper Pizza","Pineapple & Ham & Cheese")));
-        order10.checkOrderValidation();
-        assertEquals(OrderOutcome.Invalid,order10.getOrderOutcome());
-
+        System.out.println("Order validation works as expected!");
     }
 
 }

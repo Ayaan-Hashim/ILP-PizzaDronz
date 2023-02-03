@@ -155,4 +155,11 @@ public class Delivery {
         }
     }
 
+    public int getOrdersDelivered(){
+        return ordersDelivered.size();
+    }
+
+    public int getMovesMade(){
+        return movesMade.size();
+    }
 }

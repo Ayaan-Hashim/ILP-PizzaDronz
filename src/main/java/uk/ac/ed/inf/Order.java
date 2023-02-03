@@ -203,31 +203,31 @@ public final class Order {
     private boolean checkDateValidity() {
         String date = this.orderDate;
         if (date.length() != 10) {
-            System.out.println("length fail");
+//            System.out.println("length fail");
             return false;
         }
 //        Since the date formatter doesn't make it so that a string like 2020-4-1 get flagged as an invalid date.
         String[] parts = date.split("-");
         if (parts[0].length() != 4) {
-            System.out.println("year format error");
+//            System.out.println("year format error");
             return false;
         }
         if (parts[1].length() != 2) {
-            System.out.println("month format error");
+//            System.out.println("month format error");
             return false;
         }
         if (parts[2].length() != 2) {
-            System.out.println("day format error. Length:" + parts[2].length());
+//            System.out.println("day format error. Length:" + parts[2].length());
             return false;
         }
         if (parts.length > 3) {
-            System.out.println("general format error");
+//            System.out.println("general format error");
             return false;
         }
 
         //Not sure about this -`v
         if (Integer.parseInt(parts[0]) != 2023) {
-            System.out.println("incorrect year");
+//            System.out.println("incorrect year");
             return false;
         }
 //        System.out.println("date validity: "+isValid(date)+" date: "+orderDate+" or "+ date);

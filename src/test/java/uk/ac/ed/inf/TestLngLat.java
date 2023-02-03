@@ -125,4 +125,6 @@ public class TestLngLat
         LngLat pointChecking = new LngLat(-3.192473, 55.942617);
         System.out.println("distance = \t" + pointChecking.distanceTo(appleton));
     }
+
+
 }

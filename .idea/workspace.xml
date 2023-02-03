@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f7e8db9-4d41-45ce-9e6e-6cb2efd02227" name="Changes" comment="tests upto integration done">
-      <change afterPath="$PROJECT_DIR$/ST-documents/ST-ILP-Software-Requirements.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ST-documents/ST-Level of Requirements.odt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ST-documents/ST-Test-Plan.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ST-documents/ST-Testing approaches.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ST-documents/Software Testing Portfolio.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ST-documents/Testing Evidence.odt" afterDir="false" />
+    <list default="true" id="0f7e8db9-4d41-45ce-9e6e-6cb2efd02227" name="Changes" comment="added few st documents">
+      <change afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/SystemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/RetrieveServerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/RetrieveServerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/TestLngLat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/TestLngLat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/TestOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/TestOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Delivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Delivery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/RetrieveServerData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/RetrieveServerData.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +58,12 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.IntegrationOrderTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mdaya\Downloads\ilp\PizzaDronz_ILP\ST-documents" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SystemTest.testWholeSystem1">
     <configuration name="IntegrationOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PIzzaDronz" />
       <extension name="coverage">
@@ -69,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationOrderTest.testOrderIntegrationOnDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SystemTest.testWholeSystem1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PIzzaDronz" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +88,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
-      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.IntegrationOrderTest" />
-      <option name="METHOD_NAME" value="testOrderIntegrationOnDay" />
+      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.SystemTest" />
+      <option name="METHOD_NAME" value="testWholeSystem1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SystemTest.testWholeSystem1" />
         <item itemvalue="JUnit.IntegrationOrderTest" />
-        <item itemvalue="JUnit.IntegrationOrderTest.testOrderIntegrationOnDay" />
+        <item itemvalue="JUnit.TestServerRetrieval" />
         <item itemvalue="JUnit.TestOrder.testOrderValidation" />
         <item itemvalue="JUnit.TestOrder" />
-        <item itemvalue="JUnit.TestServerRetrieval" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +162,7 @@
       <workItem from="1670586510165" duration="590000" />
       <workItem from="1672679259041" duration="638000" />
       <workItem from="1674146120207" duration="4996000" />
-      <workItem from="1675189386388" duration="29248000" />
+      <workItem from="1675189386388" duration="36873000" />
     </task>
     <task id="LOCAL-00001" summary="final ILP code">
       <created>1675274488539</created>
@@ -168,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675385002924</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added few st documents">
+      <created>1675386841164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675386841164</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +205,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final ILP code" />
     <MESSAGE value="tests upto integration done" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests upto integration done" />
+    <MESSAGE value="added few st documents" />
+    <option name="LAST_COMMIT_MESSAGE" value="added few st documents" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PizzaDronz_ILP$TestOrder_testOrderValidation.ic" NAME="TestOrder.testOrderValidation Coverage Results" MODIFIED="1675404706862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uk.ac.ed.inf.*</FILTER>
+    </SUITE>
   </component>
 </project>

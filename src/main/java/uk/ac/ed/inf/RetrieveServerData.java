@@ -26,9 +26,9 @@ public class RetrieveServerData {
 		}
 	}
 
-//	public static void setDefaultUrl(URL defaultUrl){
-//		DEFAULT_URL = defaultUrl;
-//	}
+	public static void setDefaultUrl(URL defaultUrl){
+		DEFAULT_URL = defaultUrl;
+	}
 
 	/**
 	 * The generic method used to retrieve data from the given extension of
