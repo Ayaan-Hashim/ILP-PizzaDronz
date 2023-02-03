@@ -14,7 +14,7 @@ public class Delivery {
     /**
      * A static list that contains all the orders in the day.
      */
-    protected static ArrayList<Order> ordersToDeliver;
+    protected ArrayList<Order> ordersToDeliver;
 
     /**
      * A final static LngLat variable that stores the location of Appleton Tower.
@@ -25,13 +25,13 @@ public class Delivery {
      * A private variable that prioritises the closest deliveries the most, making it so that
      * the maximum number of deliveries can be made by the drone.
      */
-    private static final PriorityQueue<Order> sortOrders = new PriorityQueue<>(new OrderPrioritisation());
+    private PriorityQueue<Order> sortOrders = new PriorityQueue<>(new OrderPrioritisation());
 
     /**
      * A static final HashMap that stores the path the drone took as the value for the key of the
      * Order's unique hexadecimal order number.
      */
-    protected static final HashMap<String, List<Node>> flightpathOrderMap = new HashMap<>();
+    protected HashMap<String, List<Node>> flightpathOrderMap = new HashMap<>();
 
     /**
      * A static private field to store the date of the drone's operation.
@@ -41,12 +41,12 @@ public class Delivery {
     /**
      * A list containing all the moves the drone makes to complete all deliveries on a day.
      */
-    protected static final List<Node> movesMade = new ArrayList<>();
+    protected List<Node> movesMade = new ArrayList<>();
 
     /**
      * A list containing all the orders that the drone completes on a day.
      */
-    private final List<Order> ordersDelivered = new ArrayList<>();
+    private List<Order> ordersDelivered = new ArrayList<>();
 
     /**
      * A parameterised constructor that gets all the orders that the drone has to try to deliver.
